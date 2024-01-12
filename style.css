@@ -10,10 +10,6 @@ body{
    justify-content: space-between;
    align-items: center;
    margin: 2rem;
-   
-   
-  
-   
 }
 
 .cart{
@@ -51,7 +47,7 @@ body{
     list-style-type:none;
     font-weight: 200;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    color: gray;
 
 }
 
@@ -66,18 +62,20 @@ body{
 
 .styleimage{
     width: 80%;
+    height: 65vh;
     border-radius: 30px;  
 }
 .maindiv{
-    margin: 3rem;
+    margin: 2rem;
+   
 
 }
 
 .content2{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-column: 1;
-    margin-top: 20px;
+    grid-column: span 1;
+    margin-top: -3rem;
     gap: 20px;
     margin-right: 6rem;
 
@@ -106,13 +104,14 @@ body{
 
     font-weight: bold;
     font-size: 40;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .cdiv{
-    font-size: 15px;
-    font-family:'Courier New', Courier, monospace;
-    text-decoration: gray;
+    font-size: 20px;
+    margin-top: -2rem;
+    color: gray;
 }
 
 .ddiv{
@@ -127,7 +126,8 @@ body{
 .ediv{
     display: flex;
     text-decoration: line-through;
-    margin-top: 10px;    
+    margin-top: 20px; 
+    font-weight: bold;   
 }
 
 
@@ -135,10 +135,17 @@ body{
 .fart
 { background-color: hsl(26, 100%, 55%);
     padding: 10px;
-    color: #fff;
+    color:white;
     padding: 10px 30px;
     border-radius: 10px;
+    width: 150px;
 
+}
+
+.cartflex{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
 }
 
 .doldiv{
@@ -173,28 +180,12 @@ body{
     background-color:antiquewhite;
 
 }
-.info > h4 {
-    background-color: hsl(25, 100%, 94%);
-    padding: 4px 5px;
-    font-weight: 700;
-    letter-spacing: 0;
-    border-radius: 5px;
-    margin: 0;
-}
-
-
 
 .buttons {
     display: flex;
     margin: 10px;
 }
-.quantity {
-    margin-right: 10px;
-    display: flex;
-    background-color: hsl(223, 64%, 98%);
-    justify-content: space-between;
-    align-items: center;
-}
+
 .zero{
     margin: 10px;
 }
@@ -203,4 +194,8 @@ body{
 .minus, .plus {
     color: hsl(26, 100%, 55%);
     font-size: 20px;
+}
+
+.tag1{
+    box-shadow: #fff;
 }
