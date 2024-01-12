@@ -58,13 +58,18 @@ body{
 .content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-left: 5rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
 
 }
 
 .styleimage{
     width: 80%;
     border-radius: 30px;  
+}
+.maindiv{
+    margin: 3rem;
+
 }
 
 .content2{
@@ -80,4 +85,121 @@ body{
 .image2{
     width: 100;
     border-radius: 20px;
+}
+
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-basis: 100px;
+}
+.adiv{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 20px;
+    color: orange;
+    
+}
+
+.bdiv{
+
+    font-weight: bold;
+    font-size: 40;
+    margin-bottom: 2rem;
+}
+
+.cdiv{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: gray;
+}
+
+.ddiv{
+    font-weight: bold;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.ediv{
+    display: flex;
+    text-decoration: line-through;
+    margin-top: 10px;    
+}
+
+
+
+.fart
+{ background-color: hsl(26, 100%, 55%);
+    padding: 10px;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+
+.doldiv{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.discont{
+     font-weight:2rem;
+     background-color: pink;
+    margin-left: 1.5rem;
+}
+
+
+.carty{
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+
+.pm{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    height: 3rem;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 2px;
+    align-items: center;
+    margin-right: 30px;
+    background-color:antiquewhite;
+
+}
+.info > h4 {
+    background-color: hsl(25, 100%, 94%);
+    padding: 4px 5px;
+    font-weight: 700;
+    letter-spacing: 0;
+    border-radius: 5px;
+    margin: 0;
+}
+
+
+
+.buttons {
+    display: flex;
+    margin: 10px;
+}
+.quantity {
+    margin-right: 10px;
+    display: flex;
+    background-color: hsl(223, 64%, 98%);
+    justify-content: space-between;
+    align-items: center;
+}
+.zero{
+    margin: 10px;
+}
+
+
+.minus, .plus {
+    color: hsl(26, 100%, 55%);
+    font-size: 20px;
 }
